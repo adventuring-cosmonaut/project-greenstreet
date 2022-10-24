@@ -1,0 +1,344 @@
+/* ========== GENERAL RESPONSIVES ========== */
+@media screen and (max-width: 1000px) {
+  header.show {
+    height: 115px;
+  }
+
+  #site-container {
+    width: 100%;
+  }
+
+  #fixer.show {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #navigation {
+    display: none;
+  }
+
+  #navigation.show {
+    display: flex;
+    height: 90%;
+    width: auto;
+    flex-direction: column;
+  }
+
+  #navigation ul {
+    display: none;
+  }
+
+  #navigation ul.show {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    justify-content: space-evenly;
+  }
+
+  #navigation ul li a {
+    width: 300px;
+    font-size: 2.5rem;
+  }
+
+  #lander {
+    justify-content: space-between;
+  }
+
+  #head-logo {
+    width: 100px;
+  }
+
+  #headline {
+    width: 500px;
+  }
+
+  #b-menu {
+    width: 100px;
+  }
+
+  main {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  main.show {
+    margin-top: 0;
+  }
+
+  .take-action,
+  .about-us {
+    height: 1800px;
+  }
+
+  .content-text-front h2,
+  .take-action h2,
+  .about-us h2,
+  .contact h2 {
+    font-size: 6rem;
+  }
+
+  .action-sec h3 {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #headline {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .h1-1,
+  .h1-2 {
+    font-size: 3rem;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #headline {
+    display: none;
+  }
+
+  .h1-1,
+  .h1-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #fixer.show {
+    width: 100%;
+  }
+
+  #navigation.show {
+    width: 100%;
+  }
+
+  #navigation ul.show {
+    width: 100%;
+  }
+
+  #navigation ul li {
+    width: 100%;
+  }
+
+  #navigation ul li a {
+    width: 100%;
+    font-size: 100%;
+  }
+}
+
+/* ========== FRONT PAGE RESPONSIVE ========== */
+@media screen and (max-width: 1000px) {
+  .front-page {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .antics {
+    width: 80%;
+    height: 40%;
+  }
+
+  .content-text-front {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .content-text-front h2 {
+    margin: 0 0 0 0;
+  }
+
+  .gallery {
+    width: 70%;
+    height: 35%;
+    margin: 0;
+  }
+
+  .sponsers {
+    height: 50px;
+    font-size: 2rem;
+  }
+
+  .sponsor-border {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .front-page {
+    height: 1000px;
+    justify-content: space-around;
+  }
+  .antics {
+    width: 100%;
+    height: 400px;
+  }
+
+  .content-text-front {
+    padding: 30px;
+    height: 400px;
+  }
+
+  .content-text-front h2 {
+    width: 100%;
+  }
+
+  .sponsers {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sponsers {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .sponsers {
+    font-size: .8rem;
+  }
+
+  .antics {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .antics {
+    height: 500px;
+  }
+  .gallery {
+    height: 25%;
+  }
+}
+
+/* ========== TAKE ACTION / ABOUT US RESPONSIVE ========== */
+@media screen and (max-width: 1000px) {
+  .about-us section,
+  .take-action section {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 40%;
+  }
+
+  .about-us section:nth-child(even),
+  .take-action section:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+
+  .take-action h2,
+  .about-us h2 {
+    margin: 40px 0 30px 0;
+  }
+
+  .about-us section .content-image,
+  .take-action section .content-image {
+    width: 400px;
+    height: 45%;
+  }
+
+  .about-us section .content-text,
+  .take-action section .content-text {
+    width: 500px;
+    height: 45%;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-us section .content-text,
+  .take-action section .content-text {
+    width: 100%;
+    height: 65%;
+  }
+
+  .about-us section .content-image,
+  .take-action section .content-image {
+    max-width: 80%;
+    max-height: 40%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about-us section .content-text,
+  .take-action section .content-text {
+    height: 85%;
+  }
+}
+
+/* ========== CONTACT RESPONSIVE ========== */
+@media screen and (max-width: 1000px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2000px;
+  }
+
+  #cont-head-container {
+    margin: 0;
+    height: 5%;
+  }
+
+  #sec-cont-form {
+    height: 817px;
+    width: 500px;
+  }
+
+  #contact-container-1 {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  #contact-container-1 h3 {
+    align-items: center;
+    height: 125px;
+  }
+
+  #contact-container-2 {
+    border: 0;
+    width: 500px;
+  }
+
+  #sec-details {
+    width: 100%;
+  }
+
+  #sec-news-form {
+    width: 100%;
+  }
+
+  #detail-divider-top {
+    display: flex;
+    width: 400px;
+    border-top: 2px solid #ccc;
+    margin: 0 auto 10px auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #sec-cont-form {
+    width: 95%;
+  }
+
+  #contact-container-2 {
+    width: 95%;
+  }
+}

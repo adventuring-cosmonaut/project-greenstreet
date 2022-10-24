@@ -1,0 +1,82 @@
+.take-action,
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 1700px;
+}
+
+.take-action h2,
+.about-us h2 {
+  text-transform: uppercase;
+  margin-top: 40px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.about-us section,
+.take-action section {
+  width: 90%;
+  height: 25%;
+  color: var(--dark);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.about-us section .content-image,
+.take-action section .content-image {
+  width: 35%;
+  height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 170ms;
+  transform: scale(1);
+  transition: 250ms;
+}
+
+.about-us section .content-image:hover,
+.take-action section .content-image:hover {
+  transform: scale(1.2);
+}
+
+.about-us section .content-text,
+.take-action section .content-text {
+  width: 50%;
+  height: 90%;
+}
+
+.about-us section .content-text p,
+.take-action section .content-text p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-us section:nth-child(even),
+.take-action section:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.action-sec .content-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.action-sec h3 {
+  text-transform: uppercase;
+}
+
+#take-action-jump,
+#about-us-jump,
+#contact-jump {
+  scroll-margin-top: 110px;
+}
+
+.contact-jump {
+  color: var(--dgreen);
+  font-weight: bold;
+}
