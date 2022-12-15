@@ -1,5 +1,5 @@
 # project-greenstreet
-Read the README, yes very good keep going.
+Project for class
 
 
 ===== PROJECT DESCRIPTION =====
