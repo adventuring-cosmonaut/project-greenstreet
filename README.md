@@ -1,5 +1,5 @@
 # project-greenstreet
-Project for class
+-- Project for class --
 
 
 ===== PROJECT DESCRIPTION =====
